@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "//govindareddygarimohan.github.io/Mohan-Portfolio/static/css/main.57ecdbb0.css",
-    "main.js": "//govindareddygarimohan.github.io/Mohan-Portfolio/static/js/main.8f27e1d1.js",
-    "static/js/453.1407b060.chunk.js": "//govindareddygarimohan.github.io/Mohan-Portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/mohanPortfolio.pdf": "//govindareddygarimohan.github.io/Mohan-Portfolio/static/media/mohanPortfolio.749057e75eaf1d6e87c5.pdf",
-    "static/media/mohan-imag.jpeg": "//govindareddygarimohan.github.io/Mohan-Portfolio/static/media/mohan-imag.8f179ec9cdc8a7852475.jpeg",
-    "index.html": "//govindareddygarimohan.github.io/Mohan-Portfolio/index.html",
-    "main.57ecdbb0.css.map": "//govindareddygarimohan.github.io/Mohan-Portfolio/static/css/main.57ecdbb0.css.map",
-    "main.8f27e1d1.js.map": "//govindareddygarimohan.github.io/Mohan-Portfolio/static/js/main.8f27e1d1.js.map",
-    "453.1407b060.chunk.js.map": "//govindareddygarimohan.github.io/Mohan-Portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Mohan-Portfolio/static/css/main.57ecdbb0.css",
+    "main.js": "/Mohan-Portfolio/static/js/main.41005269.js",
+    "static/js/453.1407b060.chunk.js": "/Mohan-Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/mohanPortfolio.pdf": "/Mohan-Portfolio/static/media/mohanPortfolio.749057e75eaf1d6e87c5.pdf",
+    "static/media/mohan-imag.jpeg": "/Mohan-Portfolio/static/media/mohan-imag.8f179ec9cdc8a7852475.jpeg",
+    "index.html": "/Mohan-Portfolio/index.html",
+    "main.57ecdbb0.css.map": "/Mohan-Portfolio/static/css/main.57ecdbb0.css.map",
+    "main.41005269.js.map": "/Mohan-Portfolio/static/js/main.41005269.js.map",
+    "453.1407b060.chunk.js.map": "/Mohan-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57ecdbb0.css",
-    "static/js/main.8f27e1d1.js"
+    "static/js/main.41005269.js"
   ]
 }
