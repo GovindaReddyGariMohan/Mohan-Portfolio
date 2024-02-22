@@ -5,7 +5,7 @@ const Navigation = () => {
     const navigationItems = [
         {
             item: 'Home',
-            to: '/'
+            to: '*'
         },
         {
             item: 'About Me',
