@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.navigation-position{
+  position: absolute;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.pointer{
+  cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.about-title {
+    padding-top: 90px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.html {
+    color: #ef1f5d;
+}
+
+.css {
+    color: #1760de;
+}
+
+.js {
+    color: #FFD43B;
+}
+
+.react {
+    color: #74C0FC;
+}
+
+.node {
+    color: #4d15f4;
+}
+
+.about-details i {
+    font-size: 50px;
+    padding: 10px;
+}
+.about-details{
+    line-height: 40px;
+    text-align: start;
+}
+
+.vue {
+    color: #ec0936;
+}
+
+.sass {
+    color: #e316d2;
+}
+.about-profile-name{
+    font-weight: 600;
+    font-size: 30px;
+}
+.position{
+    font-weight: 500;
+}
+.contact-me {
+    background-color: #1760de;
+    width: 100px;
+    padding: 0px 20px;
+    color: white;
+    font-weight: 700;
+}
+.my-skills{
+    font-weight: 500;
+    line-height: 80px;
+}
+.about-page-position{
+    padding-bottom: 60px;
+}
+@media only screen and (max-width: 600px) {
+    .about-details{
+        text-align: center;
+    }
+    .about-page-position{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 160px;
+    }
+    .contact-me{
+        margin-left: 120px;
+        padding: 5px 30px;
+    }
+}

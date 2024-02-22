@@ -1,0 +1,88 @@
+.Home-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-left {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    width: 450px;
+    height: 723px;
+}
+
+.home-right {
+    background-color: white;
+    width: 700px;
+    height: 723px;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-name {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.profile-details i {
+    transition: transform .2s;
+}
+
+.profile-details i:hover {
+    color: blue;
+    transform: scale(1.51);
+
+}
+
+.download-cv {
+    background-color: blue;
+   
+   
+}
+.download-cv a{
+    color: white;
+    font-weight: 700;
+}
+.social-links{
+    font-size: 30px;
+}
+.position{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Home-page {
+       display: flex;
+       flex-direction: column;
+    }
+    .home-left{
+        width: 553px;
+        height: 323px;
+    }
+    .profile-details{
+        left: 70px;
+        gap: 50px;
+    }
+    .home-right{
+        width: 0px;
+        height: 0px;
+    }
+    .social-links{
+        display: flex;
+        gap: 20px;
+       
+    }
+    
+}
