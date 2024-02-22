@@ -46,43 +46,78 @@
 
 .download-cv {
     background-color: blue;
-   
-   
+
+
 }
-.download-cv a{
+
+.download-cv a {
     color: white;
     font-weight: 700;
 }
-.social-links{
+
+.social-links {
     font-size: 30px;
 }
-.position{
+
+.position {
     font-weight: 700;
     font-size: 20px;
     line-height: 50px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 858px) {
     .Home-page {
-       display: flex;
-       flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
-    .home-left{
-        width: 553px;
+
+    .home-left {
+        width: 820px;
         height: 323px;
     }
-    .profile-details{
-        left: 70px;
+
+    .profile-details {
+        left: 40px;
         gap: 50px;
     }
-    .home-right{
+
+    .home-right {
         width: 0px;
         height: 0px;
     }
-    .social-links{
+
+    .social-links {
+       font-size: 33px;
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Home-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-left {
+        width: 553px;
+        height: 323px;
+    }
+
+    .profile-details {
+        left: 70px;
+        gap: 50px;
+    }
+
+    .home-right {
+        width: 0px;
+        height: 0px;
+    }
+
+    .social-links {
         display: flex;
         gap: 20px;
-       
+
     }
-    
+
 }

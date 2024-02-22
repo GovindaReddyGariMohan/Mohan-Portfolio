@@ -34,13 +34,40 @@
     margin: 10px;
 }
 
+@media only screen and (max-width: 858px) {
+    .input-details input {
+        width: 320px;
+        margin: 5px;
+        border: solid 0.01px;
+        height: 30px;
+    }
+
+    .message .text-area {
+        height: 200px;
+        width: 650px;
+        border: solid 1px;
+        margin-top: 4px;
+    }
+
+    .contactMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 430px;
+        padding-top: 160px;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
     .input-details input {
         width: 120px;
         margin: 2px;
         border: solid 0.01px;
         height: 30px;
-        
+
     }
 
     .message .text-area {
@@ -48,18 +75,18 @@
         width: 250px;
         border: solid 1px;
         margin-top: 4px;
-        
+
 
     }
 
-    
+
 
     .contactMe {
 
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content:center;
+        align-content: center;
         flex-wrap: wrap;
         padding-bottom: 430px;
 

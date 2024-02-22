@@ -21,7 +21,7 @@ const Navigation = () => {
         setNavbar(navBar ? false : true)
     }
     return (
-        <div className='navigation'>
+        <div className='navigation'> 
 
             <div className='name'><Link to='/'>Mohan</Link></div>
 

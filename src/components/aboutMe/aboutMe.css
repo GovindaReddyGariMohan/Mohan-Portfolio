@@ -67,6 +67,19 @@
 .about-page-position{
     padding-bottom: 60px;
 }
+@media only screen and (max-width: 858px) {
+    .about-details{
+        text-align: center;
+    }
+    .about-page-position{
+        margin-left: 40px;
+    }
+    .contact-me{
+        margin-left: 190px;
+        padding: 5px 30px;
+        
+    }
+}
 @media only screen and (max-width: 600px) {
     .about-details{
         text-align: center;

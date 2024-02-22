@@ -6,7 +6,7 @@ import React from 'react';
 const PortfoilHome = () => {
     const profileDetails = [
         {
-            details: 'Govinda Reddy Gari Mohan',
+            details: 'Govinda Reddy Gari Mohan', 
             className: 'profile-name'
         },
         {
