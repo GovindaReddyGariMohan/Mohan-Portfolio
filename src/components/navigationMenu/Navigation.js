@@ -20,7 +20,7 @@ const Navigation = () => {
     const handleNavbar = () => {
         setNavbar(navBar ? false : true)
     }
-    return (
+    return ( 
         <div className='navigation'> 
 
             <div className='name'><Link to='/'>Mohan</Link></div>

@@ -21,29 +21,30 @@ const Projects = () => {
         },
         {
             imag: 'https://i.pinimg.com/originals/96/8e/4a/968e4a639cbbcf2a4a5858c0e2e9413d.png',
-            title: 'Restourent Menu Applications'
+            title: 'Restourent Menu Applications',
+            link: 'https://govindareddygarimohan.github.io/portfolio'
         }
     ]
     return (
         <>
-        <div className="projects">
-            <div className='project-page-title'>My Most <br />Recent Works</div>
-            <div className='project-details'>
-                {
-                    projectDetails.map((value) => {
-                        return (
+            <div className="projects">
+                <div className='project-page-title'>My Most <br />Recent Works</div>
+                <div className='project-details'>
+                    {
+                        projectDetails.map((value) => {
+                            return (
 
-                            <Link to={value.link} key={Math.random()} target="_blank">
-                                <img src={value.imag} alt='imag'  />
-                                <div>{value.title}</div>
-                            </Link>
+                                <Link to={value.link} key={Math.random()} target="_blank">
+                                    <img src={value.imag} alt='imag' />
+                                    <div>{value.title}</div>
+                                </Link>
 
-                        )
-                    })
-                }
+                            )
+                        })
+                    }
+                </div>
             </div>
-        </div>
-        <Footer/>
+            <Footer />
         </>
     )
 }
