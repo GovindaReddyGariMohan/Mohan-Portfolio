@@ -72,6 +72,16 @@ const About = () => {
             skill:'fa-brands fa-sass sass',
             title:'SASS',
             key:'details-12'
+        },
+        {
+            skill:'fa-brands fa-sass sass',
+            title:'Express Js',
+            key:'details-13'
+        },
+        {
+            skill:'fa-brands fa-sass sass',
+            title:'Mongo Db',
+            key:'details-14'
         }
     ]
     return (
